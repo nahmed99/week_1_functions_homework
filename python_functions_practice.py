@@ -30,3 +30,14 @@ def number_to_full_month_name( month ):
 
 def number_to_short_month_name(month):
     return calendar.month_abbr[month]
+
+#FURTHER
+
+def volume_of_cube (side_length):
+    return side_length ** 3
+
+def reverse_a_string(the_string):
+    return the_string[::-1]
+
+def fahrenheit_to_celsius(celsius):
+    return celsius - 273.15
