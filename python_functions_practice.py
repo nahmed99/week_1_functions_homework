@@ -25,6 +25,8 @@ def join_string( string_1, string_2 ):
 def add_string_as_number( str_1, str_2 ):
     return int(str_1) + int(str_2)
 
-
 def number_to_full_month_name( month ):
     return calendar.month_name[month]
+
+def number_to_short_month_name(month):
+    return calendar.month_abbr[month]
