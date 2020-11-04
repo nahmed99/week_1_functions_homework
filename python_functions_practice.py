@@ -31,7 +31,7 @@ def number_to_full_month_name( month ):
 def number_to_short_month_name(month):
     return calendar.month_abbr[month]
 
-#FURTHER
+#FURTHER HOMEWORK
 
 def volume_of_cube (side_length):
     return side_length ** 3
